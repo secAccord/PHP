@@ -1,17 +1,18 @@
 <?php
-$x = 10.12;
-$y = 0;
-$z = "Zielu śmierdzi";
-$a = ['Zielu','cuchnie'];
-$odpowiedz = $x>$y ;
-if(!($y%2)){
+$x = 10.12;                 //double albo float
+$y = 0;                     //int
+$z = "Zielu śmierdzi";      //String
+$a = ['Zielu','cuchnie'];   //array
+$odpowiedz = $x>$y ;        //boolean
+if(!($y%2)){                //warunek 
     echo 'Prawda <br />';
-}else{
+}else{                      //jeśli warunek się nie spełnia
     echo 'Zielinski <br />';
 }
+                           
 echo gettype($odpowiedz).'<br />';
 echo gettype($x).'<br />';
-echo gettype($y).'<br />';
+echo gettype($y).'<br />';  //echo - wyświetla tekst (bądz zawartość zmiennej) jako element HTML
 echo gettype($a).'<br />';
 echo gettype($z).'<br />';
 ?>
