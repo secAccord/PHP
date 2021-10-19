@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8" />
 		<title>Zadanie</title>
-		<link rel="stylesheet" href="style/styl.css" />
+		<link rel="stylesheet" href="styl.css" />
 	</head>
 	<body>
 		<section id="nl"><h3>Imie I nazwisko</h3></section>
