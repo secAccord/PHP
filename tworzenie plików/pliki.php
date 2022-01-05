@@ -13,7 +13,7 @@ $getFile = fopen($file,'r+'); //Otwórz plik
 
 $read = fread($getFile,filesize($file)+1); //Odczytywanie zawartości pliku
 
-$tresc = $read."\n Michał jebie Zielinski"; // Treść w pliku 
+$tresc = $read."\n Jeden"; // Treść w pliku 
 
 
 fwrite($getFile,$tresc); //Zapisywanie pliku
